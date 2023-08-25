@@ -349,6 +349,10 @@ h1.reach{
 @media screen and (min-width: 375px){
     .hero, .main, .div62, .pastors, .happening, .news, .phone{
         width: 300%;
+        font-size: 30px;
+    }
+    .subscribe{
+        height: 450px;
     }
 }
 @media screen and (min-width: 1000px){
