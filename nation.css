@@ -77,8 +77,9 @@ nav li a:hover{
     color: transparent;
 
 }
-.content a{
-    text-decoration: none;
+.content p{
+    /* text-decoration: none; */
+    background-color: rgb(249, 50, 50);
     display: inline-block;
     color: black;
     font-size: 24px;
@@ -353,5 +354,10 @@ h1.reach{
 @media screen and (min-width: 1000px){
     .hero, .main, .div62, .pastors, .happening, .news, .phone{
         width: 100%;
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .hero, .main, .div62, .pastors, .happening, .news, .phone{
+        width: 400%;
     }
 }
